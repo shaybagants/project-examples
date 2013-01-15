@@ -75,6 +75,21 @@ subprojects {
       published sourceJar
       published javadocJar
     }
+    
+    
+    uploadPublished{
+  		dependsOn build
+  		repositories {
+  				mavenDeployer {
+  					repository(url: "http://jbaruch.artifactoryonline.com/jbaruch/support-team-snapshots-local") {
+  						authentication(userName: "shayb", password: "{DESede}W6eQeoS+F4w=")
+  					}
+  					
+  				}
+  			}
+  	}
+    
+    
   }
 
 
