@@ -68,9 +68,9 @@ subprojects {
       from javadoc.destinationDir
     }
 
-    artifactoryPublish {
-      dependsOn sourceJar, javadocJar
-    }
+    //artifactoryPublish {
+    //  dependsOn sourceJar, javadocJar
+    //}
     // Add the sourceJars to non-extractor modules
     artifacts {
       published sourceJar
