@@ -32,17 +32,17 @@ import java.text.SimpleDateFormat
 
 def globalVersion = new Version(currentVersion)
 
-allprojects {
-  apply plugin: 'artifactory'
-  apply plugin: 'idea'
-  configure(subprojects.findAll { new File(it.projectDir, 'src').directory }) {
-    apply plugin: 'java'
-  }
-  group = 'org.jfrog.example.gradle'
-  version = globalVersion
-  status = version.status
+//allprojects {
+//  apply plugin: 'artifactory'
+//  apply plugin: 'idea'
+//  configure(subprojects.findAll { new File(it.projectDir, 'src').directory }) {
+//    apply plugin: 'java'
+//  }
+//  group = 'org.jfrog.example.gradle'
+//  version = globalVersion
+//  status = version.status
 
-}
+//}
 
 artifactoryPublish.skip = true
 
@@ -100,7 +100,7 @@ configurations {
 }
 
 
-artifactory {
+/*artifactory {
   contextUrl = 'http://repo.jfrog.org/artifactory'
   //contextUrl = 'http://repo-demo:8080/artifactory'
   publish {
@@ -131,7 +131,7 @@ artifactory {
     }
   }
 
-}
+}*/
 
 task wrapper(type: Wrapper) {
   gradleVersion = '1.0-milestone-8'
