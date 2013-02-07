@@ -25,11 +25,7 @@
             <scope>test</scope>
         </dependency>
         
-   	 <dependency>
-	    <groupId>org.jfrog.maven.annomojo</groupId>
-	    <artifactId>maven-plugin-anno</artifactId>
-	    <version>1.4-SNAPSHOT</version>
-	</dependency>
+
 
     </dependencies>
 
