@@ -85,5 +85,10 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    
+    <configuration>
+      <archive>
+        <forced>false</forced>
+      </archive>
+    </configuration>
 </project>
