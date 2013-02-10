@@ -43,11 +43,11 @@
                         </goals>
                     </execution>
                 </executions>
-                
-                <archive>
-                    <forced>false</forced>
-                </archive>
-                
+                <configuration>
+                    <archive>
+                        <forced>false</forced>
+                    </archive>
+                </configuration>
             </plugin>
         </plugins>
     </build>
