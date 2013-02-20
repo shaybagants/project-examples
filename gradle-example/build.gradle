@@ -158,7 +158,7 @@ class Version {
 
   String getTimestamp() {
     // Convert local file timestamp to UTC
-    def format = new SimpleDateFormat('yyyyMMddHHmmss')
+    def format = new SimpleDateFormat('yyyyMMdd-HHmmss')
     format.setCalendar(Calendar.getInstance(TimeZone.getTimeZone('UTC')));
     return format.format(buildTime)
   }
