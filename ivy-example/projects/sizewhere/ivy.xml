@@ -16,7 +16,7 @@
    specific language governing permissions and limitations
    under the License.    
 -->
-<ivy-module version="1.0">
+<ivy-module version="2.2">
     <info 
         organisation="org.apache.ivy.example"
         module="sizewhere"
