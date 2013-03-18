@@ -42,7 +42,7 @@ allprojects {
   }
   group = 'org.jfrog.example.gradle'
   version = globalVersion
-  status = version.status
+  status = 'integration'
 }
 
 //artifactoryPublish.skip = true
