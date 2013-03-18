@@ -41,8 +41,8 @@ allprojects {
     apply plugin: 'java'
   }
   group = 'org.jfrog.example.gradle'
-  version = globalVersion
-  status = '1.0-SNAPSHOT'
+  version = '1.0-SNAPSHOT'
+  status = 'integration'
 }
 
 //artifactoryPublish.skip = true
