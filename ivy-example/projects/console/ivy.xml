@@ -20,7 +20,7 @@
     <info 
         organisation="org.apache.ivy.example"
         module="console"
-        status="integration"
+        
         version="${ver}"/>
     <dependencies>
       <dependency name="version" rev="latest.integration" conf="default" />
