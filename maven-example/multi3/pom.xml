@@ -13,11 +13,11 @@
 
     <dependencies>
         <!-- depends on another project (should include transitive) -->
-        <!--dependency>
+        <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>multi1</artifactId>
             <version>${project.parent.version}</version>
-        </dependency -->
+        </dependency>
 
         <!-- runtime dependency -->
         <dependency>
