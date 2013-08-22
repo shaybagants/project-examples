@@ -63,7 +63,7 @@
    <!--For CI usage, only pubish to local repository --> 
   <target name="publish-ci" depends="buildlist" 
   			description="compile, jar and publish all projects in the right order">
-    <subant target="publish-integration" buildpathref="build-path" />
+    <subant target="publish-local" buildpathref="build-path" />
   </target>
   
 
