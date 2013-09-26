@@ -25,6 +25,13 @@
             <scope>test</scope>
         </dependency>
         
+        <dependency>
+    	<groupId>com.jfrog.shay</groupId>
+    	<artifactId>shay</artifactId>
+    	<version>1.5-SNAPSHOT</version>
+	</dependency>
+
+        
 
 
     </dependencies>
