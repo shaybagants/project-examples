@@ -24,14 +24,14 @@
             <version>3.8.1</version>
             <scope>test</scope>
             
-            
+         </dependency>   
             <dependency>
 	    <groupId>org.apache.openejb</groupId>
 	    <artifactId>openejb-common-cli</artifactId>
 	    <version>4.5.2</version>
 	</dependency>
             
-        </dependency>
+        
 
         
 
