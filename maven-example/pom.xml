@@ -7,6 +7,14 @@
     <packaging>pom</packaging>
     <name>Simple Multi Modules Build</name>
 
+
+<parent>
+        <groupId>com.test</groupId>
+        <artifactId>shay</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+
     <modules>
         <module>multi1</module>
         <module>multi2</module>
