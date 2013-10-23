@@ -29,6 +29,17 @@
     <groupId>com.github.stephenc.simple-java-mail</groupId>
     <artifactId>simple-java-mail</artifactId>
     <version>1.8</version>
+    
+    
+	    <dependency>
+	    <groupId>com.test</groupId>
+	    <artifactId>shay</artifactId>
+	    <version>1.0.0</version>
+	    <type>pom</type>
+	</dependency>
+
+    
+    
 </dependency>
     </dependencies>
 
@@ -48,19 +59,7 @@
             </plugins>
         </pluginManagement>
     </build>
-    
-
-	    <repositories>
-    <repository>
-      <id>central2</id>
-      <name>Central Repository</name>
-      <url>http://repo.maven.apache.org/maven2</url>
-      <layout>default</layout>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
+   
 
     
 </project>
