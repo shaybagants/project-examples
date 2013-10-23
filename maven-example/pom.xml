@@ -50,5 +50,17 @@
     </build>
     
 
+	    <repositories>
+    <repository>
+      <id>central2</id>
+      <name>Central Repository</name>
+      <url>http://repo.maven.apache.org/maven2</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
     
 </project>
