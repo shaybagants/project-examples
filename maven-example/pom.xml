@@ -8,12 +8,6 @@
     <name>Simple Multi Modules Build</name>
 
 
-<parent>
-        <groupId>com.test</groupId>
-        <artifactId>shay</artifactId>
-        <version>1.0.0</version>
-    </parent>
-
 
     <modules>
         <module>multi1</module>
@@ -33,20 +27,6 @@
             <scope>test</scope>
             
          </dependency>   
-<dependency>
-    <groupId>com.github.stephenc.simple-java-mail</groupId>
-    <artifactId>simple-java-mail</artifactId>
-    <version>1.8</version>
-</dependency>
-
-	    <dependency>
-	    <groupId>com.test</groupId>
-	    <artifactId>shay</artifactId>
-	    <version>1.0.0</version>
-	    <type>pom</type>
-	</dependency>
-
-
     </dependencies>
 
     <build>
