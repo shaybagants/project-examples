@@ -46,13 +46,7 @@
         </pluginManagement>
     </build>
    
-<distributionManagement>
-  <repository>
-    <id>myid</id>
-    <name>myname</name>
-    <url>http://mysite/artifactory/myrepo</url>
-  </repository>
-</distributionManagement>
+
 
     
 </project>
