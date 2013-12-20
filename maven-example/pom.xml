@@ -50,26 +50,7 @@
                     <version>2.1.2</version>
                 </plugin>
                 
-                <plugin>
-			<groupId>org.codehaus.mojo</groupId>
-			<artifactId>build-helper-maven-plugin</artifactId>
-			<executions>
-				<execution>
-					<id>attach-zip</id>
-					<goals>
-						<goal>attach-artifact</goal>
-					</goals>
-					<configuration>
-						<artifacts>
-							<artifact>
-								<file>file.txt</file>
-								<type>zip;zip.type=docs;zip.deployed=false</type>
-							</artifact>
-						</artifacts>
-					</configuration>
-				</execution>
-			</executions>
-		</plugin>
+               
 
 
                 
