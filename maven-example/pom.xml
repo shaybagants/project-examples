@@ -84,7 +84,7 @@
                             <review.team>qa</review.team>
                         </deployProperties>
                         <publisher>
-                            <contextUrl>https://localhost:8081/artifactory</contextUrl>
+                            <contextUrl>http://localhost:8081/artifactory</contextUrl>
                             <username>admin</username>
                             <password>password</password>
                             <repoKey>libs-release-local</repoKey>
