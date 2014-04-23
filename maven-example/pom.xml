@@ -41,6 +41,13 @@
 	</dependency>
 
 
+	<dependency>
+	<groupId>logkit</groupId>
+	<artifactId>LogKit</artifactId>
+	<version>1.2</version>
+	</dependency>
+            
+
     </dependencies>
 
     <build>
