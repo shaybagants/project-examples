@@ -74,19 +74,19 @@
             </plugins>
         </pluginManagement>
         
+        
+        <extensions>
+      <!-- Enabling the use of FTP -->
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+         <artifactId>wagon-ftp</artifactId>
+         <version>1.0-beta-6</version>
+      </extension>
+    </extensions>
+        
     </build>
     
-    <repositories>  
-        <repository>  
-            <id>central</id>  
-            <url>http://repo1.maven.org/maven222222/</url>  
-        </repository>  
-        <repository>  
-            <id>Sonatype repository</id>  
-            <name>Sonatype's Maven repository</name>  
-            <url>http://repo1.maven.org/maven222222/</url>  
-        </repository>  
-    </repositories>  
+   
    
 
     
