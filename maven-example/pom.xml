@@ -75,15 +75,34 @@
         </pluginManagement>
         
         
-        <extensions>
-      <!-- Enabling the use of FTP -->
+       <extensions>
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
-         <artifactId>wagon-ftp</artifactId>
-         <version>1.0-beta-6</version>
+        <artifactId>wagon-webdav</artifactId>
+        <version>1.0</version>
       </extension>
     </extensions>
-        
+
+    <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>wagon-maven-plugin</artifactId>
+      <version>1.0-beta-5</version>
+      <executions>
+        <execution>
+          <id>download-test-data</id>
+          <phase>pre-integration-test</phase>
+          <goals>
+            <goal>download</goal>
+          </goals>
+          <configuration>
+            <serverId>atlassian-public</serverId>
+            <url>dav:https://maven.atlassian.com/public</url>
+            <fromDir>com/atlassian/jira/plugins/jira-plugin-test-resources/${pom.version}</fromDir>
+            <toDir>${project.build.directory}/test-data</toDir>
+          </configuration>
+        </execution>
+      </executions>
+    </plugin>
     </build>
     
    
