@@ -1,0 +1,531 @@
+{
+  "url" : "http://localhost:9091/job/Maven-Example/154/",
+  "modules" : [ {
+    "artifacts" : [ {
+      "name" : "multi-5.1.pom",
+      "md5" : "f3956261c72898d5e2a13b8588d8b740",
+      "sha1" : "bebd8c3afb0137e7c2f3c38046e229349e271d9b",
+      "type" : "pom"
+    } ],
+    "id" : "org.jfrog.test:multi:5.1",
+    "properties" : {
+      "project.build.sourceEncoding" : "UTF-8"
+    }
+  }, {
+    "dependencies" : [ {
+      "scopes" : [ "compile" ],
+      "id" : "commons-io:commons-io:1.4",
+      "md5" : "b6a50c8a15ece8753e37cbe5700bf84f",
+      "sha1" : "a8762d07e76cfde2395257a5da47ba7c1dbd3dce",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "commons-codec:commons-codec:1.2",
+      "md5" : "2617b220009f952bb9542af167d040cf",
+      "sha1" : "397f4731a9f9b6eb1907e224911c77ea3aa27a8b",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "test" ],
+      "id" : "org.testng:testng:5.9",
+      "md5" : "52537a8a5231ca74518aec08434df7eb",
+      "sha1" : "9b8614979f3d093683d8249f61a9b6a29bc61d3d",
+      "type" : "jdk15-jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "javax.activation:activation:1.1",
+      "md5" : "8ae38e87cd4f86059c0294a8fe3e0b18",
+      "sha1" : "e6cb541461c2834bdea3eb920f1884d1eb508b50",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.springframework:spring-core:2.5.6",
+      "md5" : "378db2cc1fbdd9ed05dff2dc1023963e",
+      "sha1" : "c450bc49099430e13d21548d1e3d1a564b7e35e9",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "test" ],
+      "id" : "junit:junit:3.8.1",
+      "md5" : "1f40fb782a4f2cf78f161d32670f7a3a",
+      "sha1" : "99129f16442844f6a4a11ae22fbbee40b14d774f",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.apache.commons:commons-email:1.1",
+      "md5" : "5d6576b5b572c6d644af2924da9a1952",
+      "sha1" : "a05c4de7bf2e0579ac0f21e16f3737ec6fa0ff98",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "javax.mail:mail:1.4",
+      "md5" : "2e64a3805d543bdb86e6e5eeca5529f8",
+      "sha1" : "1aa1579ae5ecd41920c4f355b0a9ef40b68315dd",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "commons-logging:commons-logging:1.1.1",
+      "md5" : "ed448347fc0104034aa14c8189bf37de",
+      "sha1" : "5043bfebc3db072ed80fbd362e7caf00e885d8ae",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "javax.servlet.jsp:jsp-api:2.1",
+      "md5" : "b8a34113a3a1ce29c8c60d7141f5a704",
+      "sha1" : "63f943103f250ef1f3a4d5e94d145a0f961f5316",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.springframework:spring-aop:2.5.6",
+      "md5" : "036c65b02a789306fbadd3c330f1e055",
+      "sha1" : "7d04f648dd88a2173ee7ff7bcb337a080ee5bea1",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "logkit:LogKit:1.2",
+      "md5" : "33d67e651e524bd9120ba9c749a34a0b",
+      "sha1" : "3cff842f908da6ad031894bffff19778e958abdc",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "aopalliance:aopalliance:1.0",
+      "md5" : "04177054e180d09e3998808efa0401c7",
+      "sha1" : "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "asm:asm:1.5.3",
+      "md5" : "ea4119d1471fc3c1af6b216815bd666c",
+      "sha1" : "63a2715c39c9e97f88fe371d4441a1b3493d74f9",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "javax.annotation:javax.annotation-api:1.2",
+      "md5" : "75fe320d2b3763bd6883ae1ede35e987",
+      "sha1" : "479c1e06db31c432330183f5cae684163f186146",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.springframework:spring-beans:2.5.6",
+      "md5" : "25c0752852205167af8f31a1eb019975",
+      "sha1" : "449ea46b27426eb846611a90b2fb8b4dcf271191",
+      "type" : "jar"
+    } ],
+    "artifacts" : [ {
+      "name" : "multi1-5.1-sources.jar",
+      "md5" : "0be158ee84a2b26012f2d9b42f78931e",
+      "sha1" : "0b66d03868a625dab3e62b08d93e097b40f07770",
+      "type" : "java-source-jar"
+    }, {
+      "name" : "multi1-5.1-tests.jar",
+      "md5" : "cb30c9a5d5db0ed361b844d4f3857799",
+      "sha1" : "739952feb1acc21d015f3cbb2307743da3bdc3ce",
+      "type" : "test-jar"
+    }, {
+      "name" : "multi1-5.1.jar",
+      "md5" : "93c02f7946b1bfa898559aa856a9436e",
+      "sha1" : "2f32ebd120c23fff3ee673b612a74fb8833032c7",
+      "type" : "jar"
+    }, {
+      "name" : "multi1-5.1.pom",
+      "md5" : "68d73dac0cbf4453123d13e74f1dcf16",
+      "sha1" : "b222118fc72d29a669abf94b2e09c23ae315049e",
+      "type" : "pom"
+    } ],
+    "id" : "org.jfrog.test:multi1:5.1",
+    "properties" : {
+      "project.build.sourceEncoding" : "UTF-8"
+    }
+  }, {
+    "dependencies" : [ {
+      "scopes" : [ "compile" ],
+      "id" : "logkit:LogKit:1.2",
+      "md5" : "33d67e651e524bd9120ba9c749a34a0b",
+      "sha1" : "3cff842f908da6ad031894bffff19778e958abdc",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "commons-codec:commons-codec:1.2",
+      "md5" : "2617b220009f952bb9542af167d040cf",
+      "sha1" : "397f4731a9f9b6eb1907e224911c77ea3aa27a8b",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "asm:asm:1.5.3",
+      "md5" : "ea4119d1471fc3c1af6b216815bd666c",
+      "sha1" : "63a2715c39c9e97f88fe371d4441a1b3493d74f9",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "javax.annotation:javax.annotation-api:1.2",
+      "md5" : "75fe320d2b3763bd6883ae1ede35e987",
+      "sha1" : "479c1e06db31c432330183f5cae684163f186146",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "test" ],
+      "id" : "junit:junit:3.8.1",
+      "md5" : "1f40fb782a4f2cf78f161d32670f7a3a",
+      "sha1" : "99129f16442844f6a4a11ae22fbbee40b14d774f",
+      "type" : "jar"
+    } ],
+    "artifacts" : [ {
+      "name" : "multi2-5.1.jar",
+      "md5" : "31961aebac241ed854c20ec6ba843187",
+      "sha1" : "2fe041c8e931810831048275b7a03756a36f9199",
+      "type" : "jar"
+    }, {
+      "name" : "multi2-5.1.pom",
+      "md5" : "7deff038fd4c2997bcfe2cedccaebc89",
+      "sha1" : "6b7d5f9cbe5d82ece3171640deee9de1ed4fcfde",
+      "type" : "pom"
+    } ],
+    "id" : "org.jfrog.test:multi2:5.1",
+    "properties" : {
+      "daversion" : "5.1",
+      "project.build.sourceEncoding" : "UTF-8"
+    }
+  }, {
+    "dependencies" : [ {
+      "scopes" : [ "compile" ],
+      "id" : "commons-io:commons-io:1.4",
+      "md5" : "b6a50c8a15ece8753e37cbe5700bf84f",
+      "sha1" : "a8762d07e76cfde2395257a5da47ba7c1dbd3dce",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "commons-codec:commons-codec:1.2",
+      "md5" : "2617b220009f952bb9542af167d040cf",
+      "sha1" : "397f4731a9f9b6eb1907e224911c77ea3aa27a8b",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "javax.activation:activation:1.1",
+      "md5" : "8ae38e87cd4f86059c0294a8fe3e0b18",
+      "sha1" : "e6cb541461c2834bdea3eb920f1884d1eb508b50",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.springframework:spring-core:2.5.6",
+      "md5" : "378db2cc1fbdd9ed05dff2dc1023963e",
+      "sha1" : "c450bc49099430e13d21548d1e3d1a564b7e35e9",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.jfrog.test:multi1:5.1",
+      "md5" : "93c02f7946b1bfa898559aa856a9436e",
+      "sha1" : "2f32ebd120c23fff3ee673b612a74fb8833032c7",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "test" ],
+      "id" : "junit:junit:3.8.1",
+      "md5" : "1f40fb782a4f2cf78f161d32670f7a3a",
+      "sha1" : "99129f16442844f6a4a11ae22fbbee40b14d774f",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.apache.commons:commons-email:1.1",
+      "md5" : "5d6576b5b572c6d644af2924da9a1952",
+      "sha1" : "a05c4de7bf2e0579ac0f21e16f3737ec6fa0ff98",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "javax.mail:mail:1.4",
+      "md5" : "2e64a3805d543bdb86e6e5eeca5529f8",
+      "sha1" : "1aa1579ae5ecd41920c4f355b0a9ef40b68315dd",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "commons-logging:commons-logging:1.1.1",
+      "md5" : "ed448347fc0104034aa14c8189bf37de",
+      "sha1" : "5043bfebc3db072ed80fbd362e7caf00e885d8ae",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "javax.servlet.jsp:jsp-api:2.1",
+      "md5" : "b8a34113a3a1ce29c8c60d7141f5a704",
+      "sha1" : "63f943103f250ef1f3a4d5e94d145a0f961f5316",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.springframework:spring-aop:2.5.6",
+      "md5" : "036c65b02a789306fbadd3c330f1e055",
+      "sha1" : "7d04f648dd88a2173ee7ff7bcb337a080ee5bea1",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "logkit:LogKit:1.2",
+      "md5" : "33d67e651e524bd9120ba9c749a34a0b",
+      "sha1" : "3cff842f908da6ad031894bffff19778e958abdc",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "aopalliance:aopalliance:1.0",
+      "md5" : "04177054e180d09e3998808efa0401c7",
+      "sha1" : "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "provided" ],
+      "id" : "javax.servlet:servlet-api:2.5",
+      "md5" : "69ca51af4e9a67a1027a7f95b52c3e8f",
+      "sha1" : "5959582d97d8b61f4d154ca9e495aafd16726e34",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "asm:asm:1.5.3",
+      "md5" : "ea4119d1471fc3c1af6b216815bd666c",
+      "sha1" : "63a2715c39c9e97f88fe371d4441a1b3493d74f9",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "javax.annotation:javax.annotation-api:1.2",
+      "md5" : "75fe320d2b3763bd6883ae1ede35e987",
+      "sha1" : "479c1e06db31c432330183f5cae684163f186146",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "runtime" ],
+      "id" : "hsqldb:hsqldb:1.8.0.10",
+      "md5" : "7df83e09e41d742cc5fb20d16b80729c",
+      "sha1" : "7e9978fdb754bce5fcd5161133e7734ecb683036",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.springframework:spring-beans:2.5.6",
+      "md5" : "25c0752852205167af8f31a1eb019975",
+      "sha1" : "449ea46b27426eb846611a90b2fb8b4dcf271191",
+      "type" : "jar"
+    } ],
+    "artifacts" : [ {
+      "name" : "multi3-5.1.war",
+      "md5" : "3e808cf55c89af6c821111a2675b747f",
+      "sha1" : "2a6e92c15fb48fdd4d240e670919337192488162",
+      "type" : "war"
+    }, {
+      "name" : "multi3-5.1.pom",
+      "md5" : "da99efa3464f68966bb48556b3888304",
+      "sha1" : "bc2c802bdff4e0f169c9b6736f150bac968dff59",
+      "type" : "pom"
+    } ],
+    "id" : "org.jfrog.test:multi3:5.1",
+    "properties" : {
+      "project.build.sourceEncoding" : "UTF-8"
+    }
+  } ],
+  "vcsRevision" : "8ce24d975f82a1b1312f2b5c0a15f65780f19e81",
+  "vcsUrl" : "git@github.com:shaybagants/project-examples.git",
+  "started" : "2014-07-25T01:04:05.684+0300",
+  "agent" : {
+    "name" : "Jenkins",
+    "version" : "1.539"
+  },
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.0.5"
+  },
+  "durationMillis" : 6912,
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
+  },
+  "buildRetention" : {
+    "deleteBuildArtifacts" : true,
+    "buildNumbersNotToBeDiscarded" : [ ],
+    "count" : -1
+  },
+  "statuses" : [ {
+    "status" : "Staged",
+    "repository" : "ext-release-local",
+    "timestampDate" : 1406239445684,
+    "user" : "admin",
+    "comment" : "",
+    "timestamp" : "2014-07-25T01:04:05.684+0300"
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  },
+  "name" : "Maven-Example",
+  "type" : "MAVEN",
+  "number" : "154",
+  "version" : "1.0.1",
+  "properties" : {
+    "buildInfo.env.NODE_NAME" : "master",
+    "file.encoding.pkg" : "sun.io",
+    "buildInfo.env.GROOVY_HOME" : "/home/shayb/.gvm/groovy/current",
+    "java.home" : "/usr/lib/jvm/java-7-oracle/jre",
+    "buildInfo.env.BUILD_ID" : "2014-07-25_01-03-59",
+    "buildInfo.env.MAVEN_HOME" : "/home/shayb/software/Maven/apache-maven-3.0.5/",
+    "buildInfo.env.GVM_SERVICE" : "http://api.gvmtool.net",
+    "sun.font.fontmanager" : "sun.awt.X11FontManager",
+    "buildInfo.env.COMPIZ_CONFIG_PROFILE" : "ubuntu",
+    "buildInfo.env.XDG_SEAT_PATH" : "/org/freedesktop/DisplayManager/Seat0",
+    "java.endorsed.dirs" : "/usr/lib/jvm/java-7-oracle/jre/lib/endorsed",
+    "buildInfo.env.LC_NUMERIC" : "en_US.UTF-8",
+    "buildInfo.env.TERM" : "xterm",
+    "buildInfo.env.XAUTHORITY" : "/home/shayb/.Xauthority",
+    "buildInfo.env.MY_RUBY_HOME" : "/home/shayb/.rvm/rubies/ruby-2.1.1",
+    "buildInfo.env.PATH" : "/home/shayb/software/Maven/apache-maven-3.0.5//bin:/home/shayb/.rvm/gems/ruby-2.1.1/bin:/home/shayb/.rvm/gems/ruby-2.1.1@global/bin:/home/shayb/.rvm/rubies/ruby-2.1.1/bin:/home/shayb/.gvm/vertx/current/bin:/home/shayb/.gvm/springboot/current/bin:/home/shayb/.gvm/lazybones/current/bin:/home/shayb/.gvm/groovyserv/current/bin:/home/shayb/.gvm/groovy/current/bin:/home/shayb/.gvm/griffon/current/bin:/home/shayb/.gvm/grails/current/bin:/home/shayb/.gvm/gradle/current/bin:/home/shayb/.gvm/glide/current/bin:/home/shayb/.gvm/gaiden/current/bin:/home/shayb/.gvm/crash/current/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/shayb/software/gradle/gradle-1.9/bin/:/home/shayb/software/Maven/apache-maven-3.0.5/bin/:/usr/lib/jvm/java-7-oracle/:/home/shayb/software/intellij/idea-IU-117.1056/bin:/home/shayb/.rvm/bin",
+    "sun.os.patch.level" : "unknown",
+    "java.vendor.url" : "http://java.oracle.com/",
+    "java.version" : "1.7.0_45",
+    "buildInfo.env.XDG_DATA_DIRS" : "/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/",
+    "buildInfo.env.XDG_RUNTIME_DIR" : "/run/user/shayb",
+    "buildInfo.env.LC_MEASUREMENT" : "en_US.UTF-8",
+    "java.vendor.url.bug" : "http://bugreport.sun.com/bugreport/",
+    "buildInfo.env.LC_ADDRESS" : "en_US.UTF-8",
+    "buildInfo.env.JOB_URL" : "http://localhost:9091/job/Maven-Example/",
+    "user.name" : "shayb",
+    "sun.io.unicode.encoding" : "UnicodeLittle",
+    "buildInfo.env.UBUNTU_MENUPROXY" : "libappmenu.so",
+    "sun.jnu.encoding" : "UTF-8",
+    "buildInfo.env.BUILD_TAG" : "jenkins-Maven-Example-154",
+    "java.runtime.name" : "Java(TM) SE Runtime Environment",
+    "buildInfo.env.GIT_BRANCH" : "origin/master",
+    "buildInfo.env.USER" : "shayb",
+    "buildInfo.env.GEM_HOME" : "/home/shayb/.rvm/gems/ruby-2.1.1",
+    "buildInfo.env.DESKTOP_SESSION" : "ubuntu",
+    "java.specification.name" : "Java Platform API Specification",
+    "buildInfo.env.XDG_CONFIG_DIRS" : "/etc/xdg/xdg-ubuntu:/etc/xdg",
+    "user.timezone" : "Asia/Jerusalem",
+    "path.separator" : ":",
+    "buildInfo.env.EXECUTOR_NUMBER" : "1",
+    "buildInfo.env.NLSPATH" : "/usr/dt/lib/nls/msg/%L/%N.cat",
+    "buildInfo.env.LC_PAPER" : "en_US.UTF-8",
+    "file.encoding" : "UTF-8",
+    "buildInfo.env.VERTX_HOME" : "/home/shayb/.gvm/vertx/current",
+    "buildInfo.env.PATH+MAVEN" : "/home/shayb/software/Maven/apache-maven-3.0.5//bin",
+    "sun.java.command" : "org.jvnet.hudson.maven3.agent.Maven3Main /home/shayb/software/Maven/apache-maven-3.0.5/ /tmp/jetty-0.0.0.0-9091-jenkins.war--any-/webapp/WEB-INF/lib/remoting-2.32.jar /home/shayb/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.4.jar /home/shayb/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.4.jar 40138",
+    "buildInfo.env.GRADLE_HOME" : "/home/shayb/.gvm/gradle/current",
+    "buildInfo.env.BUILD_DISPLAY_NAME" : "#154",
+    "buildInfo.env.GVM_DIR" : "/home/shayb/.gvm",
+    "buildInfo.env.LESSOPEN" : "| /usr/bin/lesspipe %s",
+    "buildInfo.env.buildInfoConfig.propertiesFile" : "/tmp/buildInfo924894125276981410.properties",
+    "buildInfo.env.COLORTERM" : "gnome-terminal",
+    "buildInfo.env.BUILD_URL" : "http://localhost:9091/job/Maven-Example/154/",
+    "buildInfo.env.GROOVYSERV_HOME" : "/home/shayb/.gvm/groovyserv/current",
+    "buildInfo.env._system_version" : "13.04",
+    "buildInfo.env._" : "/usr/bin/java",
+    "buildInfo.env.SSH_AGENT_PID" : "1528",
+    "buildInfo.env.rvm_bin_path" : "/home/shayb/.rvm/bin",
+    "java.io.tmpdir" : "/tmp",
+    "buildInfo.env.GRAILS_HOME" : "/home/shayb/.gvm/grails/current",
+    "user.language" : "en",
+    "buildInfo.env.GVM_PLATFORM" : "Linux",
+    "line.separator" : "\n",
+    "buildInfo.env.PWD" : "/home/shayb/software/jenkins/jenkins-1.539",
+    "buildInfo.env.intellij_home" : "/home/shayb/software/intellij/idea-IU-117.1056",
+    "buildInfo.env.SHELL" : "/bin/bash",
+    "buildInfo.env.GVM_VERSION" : "1.3.13",
+    "java.vm.info" : "mixed mode",
+    "buildInfo.env.HUDSON_HOME" : "/home/shayb/.jenkins",
+    "sun.desktop" : "gnome",
+    "java.vm.specification.name" : "Java Virtual Machine Specification",
+    "buildInfo.env.SESSION_MANAGER" : "local/shayb-N56VJ:@/tmp/.ICE-unix/1483,unix/shayb-N56VJ:/tmp/.ICE-unix/1483",
+    "guice.disable.misplaced.annotation.check" : "true",
+    "buildInfo.env.IRBRC" : "/home/shayb/.rvm/rubies/ruby-2.1.1/.irbrc",
+    "buildInfo.env.DEFAULTS_PATH" : "/usr/share/gconf/ubuntu.default.path",
+    "buildInfo.env.CRASH_HOME" : "/home/shayb/.gvm/crash/current",
+    "buildInfo.env.NODE_LABELS" : "master",
+    "buildInfo.env.MAVEN_OPTS" : "-DarchetypeCatalog=-DarchetypeCatalog=http://admin:{DESede}BmV30H14BCWn0D/5L4jSqQ==@localhost:8081/artifactory/repo1/archetype-catalog.xml",
+    "buildInfo.env.LAZYBONES_HOME" : "/home/shayb/.gvm/lazybones/current",
+    "java.awt.printerjob" : "sun.print.PSPrinterJob",
+    "buildInfo.env.LESSCLOSE" : "/usr/bin/lesspipe %s %s",
+    "maven3.interceptor.common" : "/home/shayb/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.4.jar",
+    "CLASSPATH" : "",
+    "buildInfo.env.extractor.used" : "true",
+    "buildInfo.env.LC_MONETARY" : "en_US.UTF-8",
+    "buildInfo.env.GEM_PATH" : "/home/shayb/.rvm/gems/ruby-2.1.1:/home/shayb/.rvm/gems/ruby-2.1.1@global",
+    "buildInfo.env.GRIFFON_HOME" : "/home/shayb/.gvm/griffon/current",
+    "buildInfo.env._system_type" : "Linux",
+    "os.name" : "Linux",
+    "buildInfo.env.JOB_NAME" : "Maven-Example",
+    "java.specification.vendor" : "Oracle Corporation",
+    "buildInfo.env.TEXTDOMAINDIR" : "/usr/share/locale/",
+    "java.vm.name" : "Java HotSpot(TM) 64-Bit Server VM",
+    "archetypeCatalog" : "-DarchetypeCatalog=http://admin:{DESede}BmV30H14BCWn0D/5L4jSqQ==@localhost:8081/artifactory/repo1/archetype-catalog.xml",
+    "buildInfo.env.WINDOWID" : "69206022",
+    "maven3.interceptor" : "/home/shayb/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.4.jar",
+    "java.library.path" : "/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib",
+    "buildInfo.env.BUILDINFO_PROPFILE" : "/tmp/buildInfo924894125276981410.properties",
+    "java.class.version" : "51.0",
+    "buildInfo.env.JAVA_HOME" : "/usr/lib/jvm/java-7-oracle/",
+    "buildInfo.env.GIT_URL" : "git@github.com:shaybagants/project-examples.git",
+    "buildInfo.env.rvm_path" : "/home/shayb/.rvm",
+    "buildInfo.env.SPRINGBOOT_HOME" : "/home/shayb/.gvm/springboot/current",
+    "buildInfo.env.XDG_SESSION_PATH" : "/org/freedesktop/DisplayManager/Session0",
+    "buildInfo.env.LOGNAME" : "shayb",
+    "sun.boot.library.path" : "/usr/lib/jvm/java-7-oracle/jre/lib/amd64",
+    "sun.management.compiler" : "HotSpot 64-Bit Tiered Compilers",
+    "buildInfo.env.GNOME_KEYRING_CONTROL" : "/run/user/shayb/keyring-ib3VqW",
+    "java.awt.graphicsenv" : "sun.awt.X11GraphicsEnvironment",
+    "buildInfo.env.LC_TELEPHONE" : "en_US.UTF-8",
+    "buildInfo.env.DISPLAY" : ":0",
+    "PATH+MAVEN" : "/home/shayb/software/Maven/apache-maven-3.0.5//bin",
+    "buildInfo.env._system_name" : "Ubuntu",
+    "buildInfo.env.GAIDEN_HOME" : "/home/shayb/.gvm/gaiden/current",
+    "java.vm.specification.version" : "1.7",
+    "buildInfo.env.GPG_AGENT_INFO" : "/run/user/shayb/keyring-ib3VqW/gpg:0:1",
+    "buildInfo.env.JENKINS_SERVER_COOKIE" : "1b67c5759829cac8",
+    "buildInfo.env.TEXTDOMAIN" : "im-config",
+    "awt.toolkit" : "sun.awt.X11.XToolkit",
+    "buildInfo.env.LANG" : "en_US.UTF-8",
+    "sun.cpu.isalist" : "",
+    "buildInfo.env.rvm_version" : "1.25.19 (stable)",
+    "buildInfo.env.WORKSPACE" : "/home/shayb/.jenkins/jobs/Maven-Example/workspace",
+    "securerandom.source" : "file:/dev/./urandom",
+    "java.ext.dirs" : "/usr/lib/jvm/java-7-oracle/jre/lib/ext:/usr/java/packages/lib/ext",
+    "os.version" : "3.8.0-33-generic",
+    "buildInfo.env.LC_NAME" : "en_US.UTF-8",
+    "buildInfo.env.OLDPWD" : "/home/shayb/software/jenkins",
+    "user.home" : "/home/shayb",
+    "buildInfo.env.GDMSESSION" : "ubuntu",
+    "java.vm.vendor" : "Oracle Corporation",
+    "buildInfo.env.XDG_CURRENT_DESKTOP" : "Unity",
+    "buildInfo.env.JENKINS_URL" : "http://localhost:9091/",
+    "user.dir" : "/home/shayb/.jenkins/jobs/Maven-Example/workspace/maven-example",
+    "buildInfo.env.PAPERSIZE" : "letter",
+    "buildInfo.env.BUILD_NUMBER" : "154",
+    "sun.cpu.endian" : "little",
+    "buildInfo.env.GNOME_DESKTOP_SESSION_ID" : "this-is-deprecated",
+    "buildInfo.env.HOME" : "/home/shayb",
+    "buildInfo.env.LC_IDENTIFICATION" : "en_US.UTF-8",
+    "java.vm.version" : "24.45-b08",
+    "buildInfo.env.MANDATORY_PATH" : "/usr/share/gconf/ubuntu.mandatory.path",
+    "buildInfo.env.GLIDE_HOME" : "/home/shayb/.gvm/glide/current",
+    "java.class.path" : "/home/shayb/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-agent-1.4.jar:/home/shayb/software/Maven/apache-maven-3.0.5/boot/plexus-classworlds-2.4.jar",
+    "buildInfo.env.GVM_INIT" : "true",
+    "os.arch" : "amd64",
+    "buildInfo.env.GIT_PREVIOUS_COMMIT" : "8ce24d975f82a1b1312f2b5c0a15f65780f19e81",
+    "buildInfo.env.NODE_PATH" : "/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript",
+    "buildInfo.env.rvm_prefix" : "/home/shayb",
+    "buildInfo.env.HUDSON_URL" : "http://localhost:9091/",
+    "sun.java.launcher" : "SUN_STANDARD",
+    "java.vm.specification.vendor" : "Oracle Corporation",
+    "file.separator" : "/",
+    "java.runtime.version" : "1.7.0_45-b18",
+    "sun.boot.class.path" : "/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes",
+    "buildInfo.env.GIT_COMMIT" : "8ce24d975f82a1b1312f2b5c0a15f65780f19e81",
+    "buildInfo.env.M2_HOME" : "/home/shayb/software/Maven/apache-maven-3.0.5/",
+    "buildInfo.env.HUDSON_SERVER_COOKIE" : "1b67c5759829cac8",
+    "user.country" : "US",
+    "buildInfo.env.LS_COLORS" : "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:",
+    "maven.home" : "/home/shayb/software/Maven/apache-maven-3.0.5",
+    "buildInfo.env.HUDSON_COOKIE" : "683829df-b20f-4c40-a1d7-be45f3d7d01b",
+    "buildInfo.env.SSH_AUTH_SOCK" : "/run/user/shayb/keyring-ib3VqW/ssh",
+    "buildInfo.env.GTK_MODULES" : "overlay-scrollbar",
+    "buildInfo.env.LC_TIME" : "en_US.UTF-8",
+    "buildInfo.env.XDG_SESSION_COOKIE" : "45f802c141fa961513c07cda5288cb28-1406035633.516915-991662960",
+    "java.vendor" : "Oracle Corporation",
+    "buildInfo.env.JENKINS_HOME" : "/home/shayb/.jenkins",
+    "buildInfo.env.SHLVL" : "1",
+    "buildInfo.env.XFILESEARCHPATH" : "/usr/dt/app-defaults/%L/Dt",
+    "java.specification.version" : "1.7",
+    "buildInfo.env.DBUS_SESSION_BUS_ADDRESS" : "unix:abstract=/tmp/dbus-wj3rzrIGwO,guid=f804bf12f580bc5fc97a96ad53ce66b1",
+    "buildInfo.env._system_arch" : "x86_64",
+    "sun.arch.data.model" : "64"
+  }
+}
