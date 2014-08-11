@@ -77,7 +77,14 @@
   
      
     </build>
-    
+    <distributionManagement>
+    <snapshotRepository>
+        <id>shayb-N56VJ</id>
+        <name>shayb-N56VJ-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
+
    
    
 
