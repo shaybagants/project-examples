@@ -100,6 +100,11 @@
             <version>5.9</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.test</groupId>
+            <artifactId>myfile</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
     
 
