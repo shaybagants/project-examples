@@ -51,7 +51,13 @@
 	<groupId>commons-codec</groupId>
 	<artifactId>commons-codec</artifactId>
 	<version>1.2</version>
-	
+	</dependency>
+	<dependency>
+    <groupId>org.jfrog.app</groupId>
+    <artifactId>jfrogapp</artifactId>
+    <version>5.0-SNAPSHOT</version>
+</dependency>
+
 
             
 
