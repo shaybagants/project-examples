@@ -21,12 +21,10 @@
       //  password = "${artifactory_password}"
       //}
     }
-
     dependencies {
       classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '2.0.17')
     }
   }
-
 }*/ 
 
 import java.text.DateFormat
@@ -43,16 +41,12 @@ allprojects {
   group = 'org.jfrog.example.gradle'
   version = "${currentVersion}"
   status = 'integration'
-  
-  
 }
 
 //artifactoryPublish.skip = true
 
 subprojects {
   apply plugin: 'maven'
-
-
 
   if (project.plugins.hasPlugin('java')) {
     manifest.mainAttributes(provider: 'gradle')
@@ -132,10 +126,8 @@ configurations {
       repoKey = 'libs-release' //The Artifactory (preferably virtual) repository key to resolve from
       username = "${artifactory_user}" //Optional resolver user name (leave out to use anonymous resolution)
       password = "${artifactory_password}" //The resolver password
-
     }
   }
-
 }*/
 
 task wrapper(type: Wrapper) {
