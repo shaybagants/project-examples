@@ -40,7 +40,7 @@ allprojects {
   configure(subprojects.findAll { new File(it.projectDir, 'src').directory }) {
     apply plugin: 'java'
   }
-  group = 'org.jfrog.example.gradle'
+  group = 'org/jfrog/example/gradle'
   version = "${currentVersion}"
   status = 'integration'
 }
