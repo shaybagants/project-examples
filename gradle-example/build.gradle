@@ -96,6 +96,7 @@ subprojects {
     artifacts {
       published sourceJar
       published javadocJar
+      published createPom
     }
     
     
